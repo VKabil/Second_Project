@@ -1,10 +1,4 @@
-jewels = "aAbbb"
-stones = "aAAbbbbb"
+a=[12,34,23,10,50]
 
-
-count=0
-for stone in stones:
-    if stone in jewels:
-        count +=1
-
-print(count)
+for i in range(len(a)):
+    print(a)
